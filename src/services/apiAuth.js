@@ -22,7 +22,6 @@ export async function login({ email, password }) {
     email,
     password,
   });
-
   if (error) throw new Error(error.message);
 
   return data;
